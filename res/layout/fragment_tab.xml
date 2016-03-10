@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- tab part -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:orientation="horizontal">
+
+        <!-- 一个tab -->
+        <LinearLayout
+            android:id="@+id/heal_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="@dimen/tab_height"
+                android:src="@drawable/dolat"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_size"
+                android:text="@string/heal_by_self"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/divider"
+            android:layout_height="@dimen/bar_height"
+            android:background="@color/white"/>
+
+        <!-- 两个tab -->
+        <LinearLayout
+            android:id="@+id/query_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            >
+            <ImageView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="@dimen/tab_height"
+                android:src="@drawable/dolat"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_size"
+                android:text="@string/free_query"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/divider"
+            android:layout_height="@dimen/bar_height"
+            android:background="@color/white"/>
+        <!-- 三个tab -->
+        <LinearLayout
+            android:id="@+id/source_tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="@dimen/tab_height"
+                android:src="@drawable/dolat"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="@dimen/tab_width"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/small_size"
+                android:text="@string/doctor_resource"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

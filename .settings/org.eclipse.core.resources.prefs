@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/example/companyuo/CircleView.java=UTF-8
+encoding//src/com/example/companyuo/DataObtainAsynTask.java=UTF-8
+encoding//src/com/example/companyuo/ImageTools.java=UTF-8
+encoding//src/com/example/companyuo/LoadMoreAsync.java=UTF-8
+encoding//src/com/example/companyuo/RefreshListView.java=UTF-8
+encoding//src/com/example/companyuo/activity/HealerActivity.java=UTF-8
+encoding//src/com/example/companyuo/activity/MainActivity2.java=UTF-8
+encoding//src/com/example/companyuo/bean/Healer.java=UTF-8
+encoding//src/com/example/companyuo/bean/Person.java=UTF-8
+encoding//src/com/example/companyuo/customView/CustomPopUpWindow.java=UTF-8
+encoding//src/com/example/companyuo/customView/RectangleChangeView.java=UTF-8
+encoding//src/com/example/companyuo/customView/RefreshListView.java=UTF-8
+encoding//src/com/example/companyuo/fragment/HealBySelfFragment.java=UTF-8
+encoding//src/com/example/companyuo/tools/CameraTools.java=UTF-8

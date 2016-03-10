@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://www.114la.com/other/rgb.htm 颜色对照表网址-->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name = "white">#FFFFFF</color>
+    <color name="xinse">#fab27b</color>
+    <color name="huase">#2b4490</color>
+    <color name="luanse">#ffce7b</color>
+    <color name="kongse">#90d7ec</color>
+    <color name="wuwancaose">#7bbfea</color>
+    <color name = "touming">#00ffffff</color>
+    <color name="miganse">#f58220</color>
+    <color name = "lightblue">#4EEE94</color>
+    <color name = "lightgrey">#778A8A8A</color>
+    <color name = "pink">#FF6EC7</color>
+    <color name = "orange">#FF7F00</color>
+    <color name = "light_green">#99CC32</color>
+    <color name = "light_blue">#007FFF</color>
+    <color name = "yujin">#fdb933</color>
+    <color name = "xiangrikui">#ffc20e</color>
+    <color name = "luan">#ffce7b</color>
+    <color name="dark">#000000</color>
+    <color name="gray">#666666</color>
+</resources>

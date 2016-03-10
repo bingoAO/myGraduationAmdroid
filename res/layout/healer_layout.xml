@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id = "@+id/person_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <com.example.companyuo.CircleView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:src = "@drawable/dola"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_nike"
+                android:textSize="@dimen/big"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_height="60dp"
+            android:text="@string/default_workplace"
+            android:textSize="@dimen/big"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xinse"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        ></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xinse"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="20dp"
+        ></View>
+
+    <TextView
+        android:id = "@+id/article"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/article"
+        android:textSize="@dimen/big"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xinse"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        ></View>
+
+    <!--<TextView-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:paddingBottom="4dp"-->
+        <!--android:paddingTop="4dp"-->
+        <!--android:text="@string/default_tab"-->
+        <!--android:textSize="@dimen/big"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"/>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xinse"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="20dp"
+        ></View>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="@string/default_signiture"
+        android:textSize="@dimen/big"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xinse"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        ></View>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Company U</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="person_setting">个人设置</string>
+    <string name="button">返回</string>
+    <string name="nike_name">昵称:</string>
+    <string name="collect">收藏</string>
+    <string name="input_nikename">输入昵称</string>
+    <string name="correct">修改</string>
+    <string name="default_nike">天苍苍，野茫茫</string>
+
+    <string name="open_camera">打开相机</string>
+    <string name="open_album">打开相册</string>
+
+    <string name = "default_workplace">单位：华南理工大学</string>
+
+    <string name="default_signiture">签名：这个人很懒，什么也没留下</string>
+    <string name="default_tab">标签：目前还没有标签哦</string>
+    <string name="article">文章：点击看看他发布的文章</string>
+
+
+    <string name="heal_by_self">自愈</string>
+    <string name="free_query">咨询</string>
+    <string name="doctor_resource">资源</string>
+
+    <!-- Heal by self tab -->
+    <string name="reading">阅读</string>
+    <string name="testing">测试</string>
+
+    <!-- title bar -->
+    <string name="back">返回</string>
+
+    <!--use in refresh-->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+</resources>

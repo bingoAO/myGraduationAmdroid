@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@color/white">
+
+        <com.example.companyuo.CircleView
+            android:id = "@+id/take_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src = "@drawable/dolat"
+            android:layout_marginTop="@dimen/big_margin_bottom"
+            android:layout_marginBottom="@dimen/big_margin_bottom"
+            android:scaleType="centerInside"
+            app:radius="40dp"
+            app:corner="10dp"
+            app:type="circle"
+            ></com.example.companyuo.CircleView>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_below="@+id/take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/xinse"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_below="@+id/divider"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/nike_name_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/nike_name"
+                android:textColor="@color/huase"
+                android:textSize="@dimen/small"/>
+            <TextView
+                android:layout_alignRight="@+id/nike_name_tag"
+                android:id="@+id/nike_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:text="@string/default_nike"
+                android:textSize="@dimen/small"
+                android:visibility="visible"/>
+
+            <EditText
+                android:id="@+id/change_nike_name"
+                android:layout_alignRight="@+id/nike_name_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint = "@string/input_nikename"
+                android:textSize="@dimen/small"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/correct_tag"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/huase"
+                android:background="@null"
+                android:text="@string/correct"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
